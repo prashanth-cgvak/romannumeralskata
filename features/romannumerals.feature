@@ -24,3 +24,4 @@ Feature: Roman Numerals
             | 1989   | MCMLXXXIX     |
             | 1999   | MCMXCIX       |
             | 2015   | MMXV          |
+            | 194    | CXCIV         |

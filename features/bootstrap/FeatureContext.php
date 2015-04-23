@@ -2,6 +2,7 @@
 use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
+use Cdt\RomanNumeralsKata\RomanNumeral;
 use PHPUnit_Framework_Assert as Assert;
 
 /**
@@ -25,8 +26,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function iRunTheCodeToConvertItToARomanNumeral()
     {
-        //TODO: Pass $this->input into your code and store result in $this->output
-        throw new PendingException();
+        $this->output = RomanNumeral::convertDecimalToRomanNumeral($this->input);
     }
 
     /**
