@@ -1,7 +1,7 @@
 <?php
-use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
+use Cdt\RomanNumeralsKata\RomanNumeralsGenerator;
 use PHPUnit_Framework_Assert as Assert;
 
 /**
@@ -25,8 +25,8 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function iRunTheCodeToConvertItToARomanNumeral()
     {
-        //TODO: Pass $this->input into your code and store result in $this->output
-        throw new PendingException();
+        $romanNumeralsGenerator = new RomanNumeralsGenerator();
+        $this->output = $romanNumeralsGenerator->generateRomanNumerals($this->input);
     }
 
     /**
