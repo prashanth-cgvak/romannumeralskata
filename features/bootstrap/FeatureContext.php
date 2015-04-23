@@ -25,6 +25,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function iRunTheCodeToConvertItToARomanNumeral()
     {
+        //Pass $this->input into your code and store result in $this->output
         throw new PendingException();
     }
 
