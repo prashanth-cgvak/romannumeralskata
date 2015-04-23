@@ -74,3 +74,25 @@ I have put composer into this repository (you'll need PHP installed to use it) a
 to. You can use this opportunity to learn about one of these tools that you haven't used before if you like.
 
 Use the namespace `Cdt\RomanNumeralsKata\` in both the src and test folders.
+
+## Commands
+
+After cloning the repository, run:
+
+    composer install
+    
+To run PHPUnit tests, run:
+
+    bin/phpunit
+
+To use PHPSpec, use this command to describe a class:
+
+    bin/phpspec desc Cdt\RomanNumeralsKata\<classname>
+
+and to test, run:
+
+    bin/phpspec run
+    
+To run the behat tests, run:
+
+    bin/behat
