@@ -81,9 +81,15 @@ After cloning the repository, run:
 
     composer install
     
+You may need to make the 'composer' file in this repository executable first.
+
+### PHPUnit
+
 To run PHPUnit tests, run:
 
     bin/phpunit
+
+### PHPSpec
 
 To use PHPSpec, use this command to describe a class:
 
@@ -94,6 +100,8 @@ To test, run:
 
     bin/phpspec run
     
+### Behat
+
 To run the behat tests, run:
 
     bin/behat
