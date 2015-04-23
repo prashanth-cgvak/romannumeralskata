@@ -89,8 +89,8 @@ To use PHPSpec, use this command to describe a class:
 
     bin/phpspec desc Cdt\\RomanNumeralsKata\\<classname>
 
-Note the escaping of the PHP namespace separator on command line. A spec folder will be created with your test. To test,
-run:
+Note the escaping of the PHP namespace separator on command line. A `spec` folder will be created with your test class.
+To test, run:
 
     bin/phpspec run
     
