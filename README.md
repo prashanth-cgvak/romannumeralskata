@@ -63,8 +63,9 @@ then remove duplication while keeping the tests passing.
 ## Testing
 
 I've provided a behat .feature file that you may choose to use to test your solution once it is complete, but only use
-it for verification - write the unit tests yourself as you code. I have purposely not hooked up the feature file to any
-context files for this reason.
+it for verification - write the unit tests yourself as you code. I have purposely not completed the feature context file
+for this reason, though this is easy enough to do and there are comments in there to help you verify your solution
+afterwards.
 
 ## Tools
 
