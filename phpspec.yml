@@ -1,0 +1,4 @@
+suites:
+    cdt-romannumeralskata:
+        namespace: Cdt\RomanNumeralsKata
+        psr4_prefix: Cdt\RomanNumeralsKata
