@@ -87,9 +87,10 @@ To run PHPUnit tests, run:
 
 To use PHPSpec, use this command to describe a class:
 
-    bin/phpspec desc Cdt\RomanNumeralsKata\<classname>
+    bin/phpspec desc Cdt\\RomanNumeralsKata\\<classname>
 
-and to test, run:
+Note the escaping of the PHP namespace separator on command line. A spec folder will be created with your test. To test,
+run:
 
     bin/phpspec run
     
