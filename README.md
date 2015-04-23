@@ -105,3 +105,7 @@ To test, run:
 To run the behat tests, run:
 
     bin/behat
+
+If you get errors, you may need to add the following to your `php.ini` file:
+
+    xdebug.max_nesting_level=500
